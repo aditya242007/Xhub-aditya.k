@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>aditya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">X cellerators_hub</span>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#who-we-are" class="nav-link">Who We Are</a></li>
+        <li><a href="#whom-we-serve" class="nav-link">Whom We Serve</a></li>
+        <li><a href="#what-we-do" class="nav-link">What We Do</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-background">
+        <video class="hero-video" autoplay muted loop playsinline>
+        <source src="15200532-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+      <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+      </div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          Transform Your Business 
+        </h1>
+        <br/>
+        <h1><span class="gradient-text">Beyond Limits</span></h1>
+        <p class="hero-description">
+          Unlock unprecedented growth with our cutting-edge business solutions designed for the future
+        </p>
+        <div class="hero-buttons">
+          <button class="cta-primary" onclick="scrollToSection('contact')">
+            Get Started <i class="fas fa-rocket"></i>
+          </button>
+          <button class="cta-secondary" onclick="scrollToSection('who-we-are')">
+            Learn More <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="500">0</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="98">0</span>
+          <span class="stat-label">Success Rate</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="1000">0</span>
+          <span class="stat-label">Projects Done</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- Who We Are Section -->
+  <section id="who-we-are" class="who-we-are">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">WHO WE ARE</h2>
+        <p class="section-description">
+          We offer a comprehensive suite of services tailored to meet the diverse needs and challenges
+          of modern businesses. From strategic planning to transformative coaching, our expert team is
+          dedicated to delivering results-driven solutions across various domains.
+        </p>
+      </div>
+
+      <div class="who-content">
+        <div class="features-grid">
+          <div class="feature-card" data-aos="fade-up">
+            <div class="feature-icon green-bg">
+              <i class="fas fa-eye"></i>
+            </div>
+            <div class="feature-content">
+              <h3>Vision</h3>
+              <p>
+                To empower organizations worldwide to achieve sustainable growth, innovation, and
+                excellence through strategic thinking, transformative solutions, and unparalleled service.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-icon orange-bg">
+              <i class="fas fa-bullseye"></i>
+            </div>
+            <div class="feature-content">
+              <h3>Mission</h3>
+              <p>
+                Our mission is to be the catalyst for our clients' success by providing cutting-edge
+                consultancy services that drive strategic alignment, foster innovation, and propel
+                businesses towards their full potential.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-container" data-aos="fade-left">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/hrio4k4zKNQ?rel=0&autoplay=0&mute=1&loop=1&playlist=hrio4k4zKNQ&controls=1&modestbranding=1"
+              title="Who We Are Video"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Whom We Serve Section -->
+  <section id="whom-we-serve" class="whom-we-serve">
+    <div class="container">
+      <div class="serve-content">
+        <div class="serve-image" data-aos="fade-right">
+          <div class="image-container">
+            <img src="whom-we-serve.webp" alt="Whom We Serve" class="main-image" />
+            <div class="floating-element sales-expert">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="floating-element graph-element">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="serve-text" data-aos="fade-left">
+          <span class="section-tag">Whom We Serve</span>
+          <h2>Let's Make Something Awesome Together</h2>
+          <p>
+            We partner with visionary entrepreneurs and established businesses ready to break through barriers 
+            and achieve extraordinary growth. Our expertise spans across industries, helping you navigate 
+            challenges and capitalize on opportunities.
+          </p>
+
+          <div class="serve-features">
+            <div class="serve-feature">
+              <div class="serve-icon indigo-bg">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <div class="serve-feature-content">
+                <h4>Early-Stage Entrepreneurs</h4>
+                <p>Transform your innovative ideas into thriving businesses with our comprehensive startup support.</p>
+                <a href="#services" class="feature-link">Explore Solutions <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="serve-feature">
+              <div class="serve-icon purple-bg">
+                <i class="fas fa-building"></i>
+              </div>
+              <div class="serve-feature-content">
+                <h4>Established Businesses</h4>
+                <p>Revitalize stagnant growth and unlock new potential with our strategic transformation services.</p>
+                <a href="#services" class="feature-link">Discover More <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Do Section -->
+  <section id="what-we-do" class="what-we-do">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Approach</span>
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-description">
+          We offer unique & innovative solutions tailored to your business needs.
+        </p>
+      </div>
+
+      <div class="what-cards">
+        <div class="what-card" data-aos="fade-up">
+          <div class="what-card-content">
+            <h3>BUILDING A STRONG FOUNDATION</h3>
+            <p>
+              Elevate your business strategy with our comprehensive foundation package, covering strategic planning, 
+              market entry strategies, online presence optimization, targeted customer segmentation, and expert 
+              coaching to enhance sales and marketing effectiveness.
+            </p>
+            <div class="card-features">
+              <span class="feature-tag">Strategic Planning</span>
+              <span class="feature-tag">Market Entry</span>
+              <span class="feature-tag">Online Presence</span>
+            </div>
+          </div>
+          <div class="what-card-visual">
+            <div class="visual-element foundation">
+              <i class="fas fa-building"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="what-card reverse" data-aos="fade-up" data-aos-delay="200">
+          <div class="what-card-visual">
+            <div class="visual-element growth">
+              <i class="fas fa-rocket"></i>
+            </div>
+          </div>
+          <div class="what-card-content">
+            <h3>ACCELERATING YOUR BUSINESS GROWTH</h3>
+            <p>
+              Propel your business forward with our growth-focused package, featuring sales and marketing 
+              optimization tactics, channel development proficiency, process enhancements, customer experience 
+              enrichment, and collaborative team coaching.
+            </p>
+            <div class="card-features">
+              <span class="feature-tag">Sales Optimization</span>
+              <span class="feature-tag">Channel Development</span>
+              <span class="feature-tag">Team Coaching</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="what-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="what-card-content">
+            <h3>ELEVATING YOUR BUSINESS</h3>
+            <p>
+              Prepare for a journey of profound change and growth with our transformation package, including 
+              market expansion insights, product innovation strategies, change leadership methodologies, brand 
+              development expertise, and executive leadership coaching.
+            </p>
+            <div class="card-features">
+              <span class="feature-tag">Market Expansion</span>
+              <span class="feature-tag">Innovation</span>
+              <span class="feature-tag">Leadership</span>
+            </div>
+          </div>
+          <div class="what-card-visual">
+            <div class="visual-element elevation">
+              <i class="fas fa-crown"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">How We Do</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-aos="zoom-in">
+          <div class="service-header">
+            <h3>STRATEGIC GROWTH</h3>
+            <div class="service-icon">
+              <i class="fas fa-chess-king"></i>
+            </div>
+          </div>
+          <div class="service-divider"></div>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Strategic Business Planning</li>
+            <li><i class="fas fa-check"></i> Market Expansion Strategies</li>
+            <li><i class="fas fa-check"></i> Go-to-Market Strategy</li>
+            <li><i class="fas fa-check"></i> Product Lifecycle Management</li>
+            <li><i class="fas fa-check"></i> Channel Management</li>
+          </ul>
+          <button class="service-btn">
+            Explore Strategic Growth <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="service-card featured" data-aos="zoom-in" data-aos-delay="200">
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-header">
+            <h3>MARKETING EXCELLENCE</h3>
+            <div class="service-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+          </div>
+          <div class="service-divider"></div>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Sales & Marketing Optimization</li>
+            <li><i class="fas fa-check"></i> Digital Marketing & Online Presence</li>
+            <li><i class="fas fa-check"></i> Customer Segmentation & Targeting</li>
+            <li><i class="fas fa-check"></i> Customer Experience Enhancement</li>
+            <li><i class="fas fa-check"></i> Brand Development & Management</li>
+          </ul>
+          <button class="service-btn">
+            Discover Marketing Excellence <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="service-header">
+            <h3>OPERATIONAL ELEVATION</h3>
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+          </div>
+          <div class="service-divider"></div>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Performance Management</li>
+            <li><i class="fas fa-check"></i> Sales Process Automation</li>
+            <li><i class="fas fa-check"></i> Sales and Marketing Coaching</li>
+            <li><i class="fas fa-check"></i> Team Building Coaching</li>
+            <li><i class="fas fa-check"></i> Executive Coaching</li>
+          </ul>
+          <button class="service-btn">
+            Learn Operational Elevation <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Insights</span>
+        <h2 class="section-title">Latest Blog Posts</h2>
+        <p class="section-description">Stay updated with the latest trends and insights in business growth</p>
+      </div>
+
+      <div class="blog-grid" id="blogContainer">
+        <!-- Blog posts will be dynamically inserted here -->
+      </div>
+
+      <div class="blog-actions">
+        <button id="showMoreBtn" class="show-more-btn">
+          Load More Articles <i class="fas fa-plus"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Ready to Transform Your Business?</h2>
+          <p>
+            Take the first step towards unprecedented growth. Our team of experts is ready to help you 
+            unlock your business potential and achieve extraordinary results.
+          </p>
+          
+          <div class="contact-features">
+            <div class="contact-feature">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Call Us</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact-feature">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email Us</h4>
+                <p>hello@businesspro.com</p>
+              </div>
+            </div>
+            <div class="contact-feature">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Visit Us</h4>
+                <p>123 Business Ave, Suite 100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" placeholder="Your Phone" />
+              <label for="phone">Your Phone</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="submit-btn">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>X--hub</h3>
+          <p>Transforming businesses beyond limits with innovative solutions and strategic expertise.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Strategic Growth</a></li>
+            <li><a href="#services">Marketing Excellence</a></li>
+            <li><a href="#services">Operational Elevation</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#who-we-are">About Us</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Newsletter</h4>
+          <p>Subscribe to get the latest updates</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" />
+            <button><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 aditya.k  All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
